@@ -1,16 +1,45 @@
+@font-face {
+  font-family: 'DecimaMonoPro';
+  font-display: auto;
+  font-style: normal;
+  font-weight: normal;
+  src: url('.DecimaMonoPro.otf') format('opentype'),
+  url('.DecimaMonoPro.woff') format('woff'),
+  url('.DecimaMonoPro.woff') format('woff2');
+}
+
+
 * {
+  font-family: 'DecimaMonoPro', 'monospaced';
+  color: #E4E4E4;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
 body {
-  height: 100vh;
-  display: flex;
   background: #171F2A;
 }
 
+.game-header {
+  margin-bottom: 20px;
+  font-size: 28px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.game-header a {
+  text-decoration: none;
+  color: #E4E4E4;
+}
+
+.game-wrapper {
+  height: 100vh;
+  display: flex;
+}
 .memory-game {
+  max-width: 800px;
+  max-height: 600px;
   width: 800px;
   height: 600px;
   margin: auto;
