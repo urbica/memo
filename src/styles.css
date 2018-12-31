@@ -34,17 +34,15 @@ body {
 }
 
 .game-wrapper {
-  calc(100vh - 55px);
+  min-height: calc(100vh - 55px);
   display: flex;
 }
 .memory-game {
   max-width: 800px;
-  max-height: 600px;
-  width: 800px;
-  height: 600px;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   perspective: 1000px;
 }
 
