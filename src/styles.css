@@ -76,6 +76,7 @@ body {
   position: absolute;
   background: #f0f0f0;
   backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
 }
 
 .front-face {
